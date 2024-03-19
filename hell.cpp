@@ -7,5 +7,6 @@ int main()
     cout<<"enter the value:";
     cin>>i;
     
+    
     return 0;
 }
