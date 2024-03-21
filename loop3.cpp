@@ -8,12 +8,12 @@ int main()
 
     for(int i=0;i<5;i++)
     {
-        for(int j=0;j<=1;j++)
+        for(int j=0;j<=i;j++)
         {
             cout<< a<<endl;
             a++;
         }
-            cout<<"\n";
+           cout<<endl;
     }
         return 0;
 }
