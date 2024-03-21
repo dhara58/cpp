@@ -3,7 +3,8 @@ using namespace std;
 
 int main()
 {
-     int phy,com,bio,chem,mat,per;
+     int phy,com,bio,chem,mat;
+     int per;
      
      cout<<"enter five sub marks"<<endl;
      cin>>phy>>com>>bio>>chem>>mat;
