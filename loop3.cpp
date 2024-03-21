@@ -13,7 +13,7 @@ int main()
             cout<< a<<endl;
             a++;
         }
-           cout<<endl;
+            cout<<endl;
     }
         return 0;
 }
