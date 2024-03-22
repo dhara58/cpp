@@ -3,14 +3,15 @@ using namespace std;
 
 int main()
 {
-     int phy,com,bio,chem,mat;
-     int per;
+     int grade,phy,com,bio,chem,mat;
+     float per;
      
      cout<<"enter five sub marks"<<endl;
      cin>>phy>>com>>bio>>chem>>mat;
      
-     per=(phy+com+bio+chem+mat);
+     per=phy+com+bio+chem+mat*100/250;
 
+     cout<<"per:"<<per<<endl;
      if(per>=90)
      {
         cout<<"A grade";
